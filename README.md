@@ -1,1 +1,15 @@
-language-armips
+# ARMIPS Assembler Language Support in Atom
+
+Add syntax highlighting for use with the [ARMIPS toolchain](https://github.com/Kingcom/armips) to Atom.
+
+This package depends on the already existing excellent [language-mips](https://github.com/Jakehp/language-mips) and [language-arm](https://github.com/dan-c-underwood/language-arm) packages, which adds language support for ARM and MIPS assembly languages. These two packages are required by this one since it only extends those packages with commands and instructions specific to ARMIPS.
+
+Atom should detect automatically if the packages are missing, else install the packages mentioned above by running
+
+```
+apm install language-mips language-arm
+```
+
+or by using the package installer in Atom's settings window.
+
+This is work in progress. Please use Github's issue function to report bugs or improvement ideas. Pull requests are greatly appreciated!

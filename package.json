@@ -1,6 +1,6 @@
 {
   "name": "language-armips",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "description": "Language support in Atom for use with the ARMIPS toolchain",
   "repository": "https://github.com/georgjz/language-armips.git",
@@ -8,8 +8,7 @@
   "engines": {
     "atom": ">0.61.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "bugs": {
     "url": "https://github.com/georgjz/language-armips.git/issues"
   }

@@ -1,0 +1,17 @@
+{
+  "name": "language-armips",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Language support in Atom ARMIPS toolchain",
+  "repository": "https://github.com/georgjz/language-armips.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.61.0"
+  },
+  "dependencies": {
+      "language-mips": "^0.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/georgjz/language-armips.git/issues"
+  }
+}

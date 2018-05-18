@@ -12,4 +12,7 @@ apm install language-mips language-arm
 
 or by using the package installer in Atom's settings window.
 
-This is work in progress. Please use Github's issue function to report bugs or improvement ideas. Pull requests are greatly appreciated!
+This is work in progress. Please use Github's issue function to report bugs or improvement ideas. Contributions are greatly appreciated!
+
+## Known bugs
+While MIPS support works, ARM syntax highlight is still faulty. There seems to be some conflicts with my existing code. I hope to fix this in the next update.

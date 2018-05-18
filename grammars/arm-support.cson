@@ -1,0 +1,21 @@
+# Syntax highlighting for the armips toolchain for use with ARM assembly
+# See https://github.com/Kingcom/armips for more information
+
+scopeName: 'source.arm-support'
+name: 'ARM Assembly (ARMIPS)'
+fileTypes: [
+  'asm'
+  's'
+  'mips'
+  'spim'
+]
+patterns: [
+    # the basic ARM instruction set
+    {
+        include: 'source.arm'
+    }
+    # armips directives
+    {
+        include: 'source.armips-toolchain'
+    }
+]

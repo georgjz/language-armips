@@ -1,0 +1,54 @@
+# Syntax highlighting for the armips toolchain for use with MIPS assembly
+# See https://github.com/Kingcom/armips for more information
+
+scopeName: 'source.mips-support'
+name: 'MIPS Assembly (ARMIPS)'
+fileTypes: [
+  'asm'
+  's'
+  'mips'
+  'spim'
+]
+patterns: [
+    # the basic MIPS instruction set
+    {
+        include: 'source.mips'
+    }
+    # armips supports single-line style comments with ; and //,
+    # and block style comments
+    {
+        include: '#comments'
+    }
+    # armips directives
+    {
+        include: 'source.armips-toolchain'
+    }
+]
+
+# start of repository
+repository:
+
+    # comments supported by armips
+    comments:
+        patterns: [
+            # semicolon comments
+            {
+                match:  '(;|(^|\\s)#\\s).*$'
+                name:   'comment.line.semicolon.mips-support'
+            }
+            # double-slash comments
+            {
+                name: 'comment.line.double-slash.mips-support'
+                begin: '//'
+                end: '$'
+            }
+            # /* */ block style comments
+            {
+                begin: '/\\*'
+                captures:
+                    0:
+                        name: 'punctuation.definition.comment.mips-support'
+                end: '\\*/'
+                name: 'comment.block.mips-support'
+            }
+        ] # end comments

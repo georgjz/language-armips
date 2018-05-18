@@ -9,8 +9,6 @@
     "atom": ">0.61.0"
   },
   "dependencies": {
-    "language-mips": "^0.3.0",
-    "language-arm": "git+https://github.com/dan-c-underwood/language-arm"
   },
   "bugs": {
     "url": "https://github.com/georgjz/language-armips.git/issues"

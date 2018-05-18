@@ -4,7 +4,7 @@ Add syntax highlighting for use with the [ARMIPS toolchain](https://github.com/K
 
 This package depends on the already existing excellent [language-mips](https://github.com/Jakehp/language-mips) and [language-arm](https://github.com/dan-c-underwood/language-arm) packages, which adds language support for ARM and MIPS assembly languages. These two packages are required by this one since it only extends those packages with commands and instructions specific to ARMIPS.
 
-Atom should detect automatically if the packages are missing, else install the packages mentioned above by running
+Install the packages mentioned above by running
 
 ```
 apm install language-mips language-arm

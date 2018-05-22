@@ -22,28 +22,3 @@ patterns: [
 
 # start of repository
 # repository:
-#
-#     # comments supported by armips
-#     comments:
-#         patterns: [
-#             # semicolon comments
-#             {
-#                 match:  '(;|(^|\\s)#\\s).*$'
-#                 name:   'comment.line.semicolon.mips-support'
-#             }
-#             # double-slash comments
-#             {
-#                 name: 'comment.line.double-slash.mips-support'
-#                 begin: '//'
-#                 end: '$'
-#             }
-#             # /* */ block style comments
-#             {
-#                 begin: '/\\*'
-#                 captures:
-#                     0:
-#                         name: 'punctuation.definition.comment.mips-support'
-#                 end: '\\*/'
-#                 name: 'comment.block.mips-support'
-#             }
-#         ] # end comments

@@ -44,14 +44,14 @@ repository:
     # armips directives
     directives:
         patterns: [
-            # equ directive
+            # data directives
             {
                 match:  '(\\.)?\\b(?i)(equ|db|dw|stringn?|strn?|sjisn?|(else)?if(n?def)?|else|endif|word|byte|dcb|halfword|dh|dcw|dcd|doubleword|dd|dcq|float|double)\\b'
                 name:   'storage.type.armips-toolchain'
             }
-            # data directives
+            # code directives
             {
-                match:  '(\\.)\\b(?i)(fixloaddelay|resetdelay|(load)?table|(end)?area|orga?|import(obj|lib)?|psx|ps2|psp|n64|rsp|gba|nds|3ds|arm.big|arm.little|headersize|(create|close)(file)?|include|fill|skip|incbin|definelabel|warning|error|notice|loadelf)\\b'
+                match:  '(\\.)\\b(?i)(macro|endmacro|fixloaddelay|resetdelay|(load)?table|(end)?area|orga?|import(obj|lib)?|psx|ps2|psp|n64|rsp|gba|nds|3ds|arm\\.big|arm\\.little|headersize|(create|close)(file)?|include|fill|skip|incbin|definelabel|warning|error|notice|loadelf)\\b'
                 name:   'storage.modifier.armips-toolchain'
             }
             # pseudo functions
@@ -64,5 +64,4 @@ repository:
                 match:  '!|&|&&|\\^|\\*|\\/|\\-|\\+|~|=|<=|>=|<<|>>|<>|<|>|\\||\\|\\|'
                 name:   'keyword.operator.armips-toolchain'
             }
-
         ]

@@ -5,7 +5,7 @@
   "description": "Language support in Atom for use with the ARMIPS toolchain",
   "keywords" : [
       "assembly", "mips", "arm", "armips", "assembler"
-  ]
+  ],
   "repository": "https://github.com/georgjz/language-armips.git",
   "license": "MIT",
   "engines": {

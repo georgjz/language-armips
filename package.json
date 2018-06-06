@@ -1,6 +1,6 @@
 {
   "name": "language-armips",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "private": true,
   "description": "Language support in Atom for use with the ARMIPS toolchain",
   "keywords": [

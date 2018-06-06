@@ -10,7 +10,7 @@
     "armips",
     "assembler"
   ],
-  "repository": "git@github.com:georgjz/language-armips.git",
+  "repository": "https://github.com/georgjz/language-armips.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.61.0"

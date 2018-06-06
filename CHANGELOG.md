@@ -1,3 +1,7 @@
+## 0.2.0
+* Dependencies should now install automatically
+* Some refactoring for a more consistence code base
+
 ## 0.1.3
 * Added missing .macro and .endmacro commands
 

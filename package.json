@@ -10,12 +10,16 @@
     "armips",
     "assembler"
   ],
-  "repository": "https://github.com/georgjz/language-armips.git",
+  "repository": "git@github.com:georgjz/language-armips.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.61.0"
   },
   "dependencies": {},
+  "package-deps": [
+    "language-mips",
+    "language-arm"
+  ],
   "bugs": {
     "url": "https://github.com/georgjz/language-armips.git/issues"
   }

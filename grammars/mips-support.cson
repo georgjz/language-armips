@@ -10,14 +10,14 @@ fileTypes: [
   'spim'
 ]
 patterns: [
-    # the basic MIPS instruction set
-    {
-        include: 'source.mips'
-    }
-    # armips directives
-    {
-        include: 'source.armips-toolchain'
-    }
+  # the basic MIPS instruction set
+  {
+    include: 'source.mips'
+  }
+  # armips directives
+  {
+    include: 'source.armips-toolchain'
+  }
 ]
 
 # start of repository

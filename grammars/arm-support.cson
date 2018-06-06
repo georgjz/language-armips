@@ -10,12 +10,12 @@ fileTypes: [
   'spim'
 ]
 patterns: [
-    # the basic ARM instruction set
-    {
-        include: 'source.arm'
-    }
-    # armips directives
-    {
-        include: 'source.armips-toolchain'
-    }
+  # the basic ARM instruction set
+  {
+    include: 'source.arm'
+  }
+  # armips directives
+  {
+    include: 'source.armips-toolchain'
+  }
 ]
